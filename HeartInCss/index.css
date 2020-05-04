@@ -1,0 +1,123 @@
+#principal {
+    z-index: 1;
+
+}
+
+body{
+    opacity: 0.8;
+    background: linear-gradient(90deg, teal, rgb(255, 228, 233));
+}
+
+@keyframes colorful {
+    0% {
+        background-color: pink;        
+    }
+
+    25% {
+        background-color: rgb(255, 146, 164);
+    }
+
+    50% {
+        background-color: rgb(255, 65, 65);
+    }
+
+    75% {
+        background-color: rgb(255, 146, 164);
+    }
+
+    100% {
+        background-color: pink;
+
+    }
+}
+
+
+.heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-45deg);
+
+    animation-name: colorful;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.heart::before{
+    content: "";
+    background-color: pink;
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+    animation-name: colorful;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.heart::after{
+    content: "";
+    background-color: pink;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+    animation-name: colorful;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.backheart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 2px;
+    left: 5px;
+    background-color: red;
+    opacity: 0.5;
+    height: 300px;
+    width: 300px;
+    transform: rotate(-45deg);
+    box-shadow: 10px 10px 10px red;
+}
+
+.backheart::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: -150px;
+    right: 0px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+
+.backheart::after{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px red;
+}
+

@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo{
+    flex:1;
+    display: flex;
+}
+
+.logo h4{
+    padding: 0 0 0 10px;
+}
+
+.cart {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav{
+    flex:2;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.presentation {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 10vh 0 0 0;
+}
+
+.detail button {
+    height: 30px;
+    width: 100px;
+}
+
+.store {
+    margin: 20px 0 0 20px;
+}
+
+.cover img{
+    height: 60vh;
+}

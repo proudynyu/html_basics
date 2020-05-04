@@ -1,0 +1,39 @@
+h4 {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(45, 45, 45, 0.1);
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+}
+
+.links {
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+    opacity: 0.7;
+}
+
+.links:hover{
+    color: blue;
+}
+
+.fullCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    width: 245px;
+}
+
+.cardContent {
+    padding: 10px;
+}
+
+#thumbnail {
+    box-shadow: 0 10px 20px rgb(0,0,0,0.19),
+    0 6px 6px rgba(0,0,0, 0.23);
+}

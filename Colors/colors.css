@@ -1,0 +1,138 @@
+#box{
+    border-style: solid;
+    border-width: 2px;
+    height: 500px;
+    width: 1000px;
+    box-shadow: 6px 6px 20px black, 3px 3px 20px #acacac;
+}
+
+.orange{
+    background-color: #FF7F00;
+}
+
+.cyan{
+    background-color: #00FFFF;
+}
+
+.raspberry {
+    background-color: #FF007F;
+}
+
+.magenta {
+    background-color: #FF00FF;
+}
+
+.red{
+    background-color: #FF0000;
+}
+
+.blue {
+    background-color: #0000FF;
+}
+
+.green{
+    background-color: #00FF00;
+}
+
+.yellow{
+    background-color: #FFFF00;
+}
+
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#color {
+    margin: 0 0 5px 25px;
+}
+
+#sec {
+    margin: 0 12px 5px 12px;
+}
+
+.primary-colors{
+    text-align: center;
+    display: inline-block;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    height: 450px;
+    width: 150px;
+    margin: 15px 100px 0 100px;
+}
+
+.secondary-colors{
+    text-align: center;
+    display: inline-block;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    height: 450px;
+    width: 250px;
+    margin: 0 100px 0 0;
+}
+
+.terciary-colors{
+    text-align: center;
+    display: inline-block;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+    height: 450px;
+    width: 150px;
+    margin: 0 100px 0 0;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: 0 0 5px 0;
+}
+
+.gradient {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 40px;
+    width: 1000px;
+    position: absolute;
+    top: 550px;
+    background: linear-gradient(0deg, #eb89f8, #00F);
+}
+
+.bloco {
+    display: inline-block;
+    border: solid 2px black;
+    position: relative;
+    top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 250px;
+    width: 200px;
+}
+
+#grad1 {
+    background: repeating-linear-gradient(
+        0deg,
+        white 0px,
+        black 50px,
+        white 100px,
+        black 150px,
+        white 200px,
+        black 250px
+    );
+}
+
+#grad2 {
+    background: repeating-linear-gradient(
+        45deg,
+        yellow 0px,
+        yellow 30px,
+        black 30px,
+        black 60px
+    );
+}

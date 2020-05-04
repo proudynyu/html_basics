@@ -1,0 +1,51 @@
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+header{
+    background: lime;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+
+.logo {
+    background: lightcoral;
+    flex: 1;
+    text-align: center;
+}
+
+nav {
+    background: lightgreen;
+    flex: 2;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+.body-text{
+    background: lightblue;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        width: 50%;
+    }
+
+    .body-text{
+        width: 50%;
+    }
+}
